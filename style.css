@@ -1,0 +1,72 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: darkblue;
+  margin: 10px 50px;
+  background-color: Ivory;
+}
+
+/* Navbar */
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#navbar li {
+  display: inline;
+}
+
+#navbar a {
+  margin-left: 75px;
+  margin-right: 75px;
+  text-decoration: none;
+  color: darkblue;
+  font-weight: bold;
+}
+
+/* Headings */
+h1, h2 {
+  font-family: Oswald, sans-serif;
+}
+
+/* Images */
+img {
+  float: left;
+  margin-right: 10px;
+}
+
+/* Float-based layout */
+.left {
+  float: left;
+  width: 300px;
+  padding: 1em;
+}
+
+.right {
+  float: right;
+  width: 300px;
+  padding: 1em;  
+}
+
+.center {
+  margin-left: 300px;
+  margin-right: 300px;
+  padding: 1em;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.left {
+  float: left;
+  width: 120px;    /* just enough space for the logo */
+  padding: 1em;
+}
+
+.content {
+  margin-left: 150px;  /* pushes text to the right of the logo */
+  padding: 1em;
+}
